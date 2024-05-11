@@ -1,0 +1,26 @@
+.sign-in-button-container {
+  width: 74px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-button-radius);
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #000000;
+}
+.sign-in-button-text {
+  color: #ffffff;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+}
+.sign-in-button-root-class-name {
+  margin-bottom: var(--dl-space-space-unit);
+}
+@media(max-width: 479px) {
+  .sign-in-button-text {
+    text-align: center;
+  }
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign-Up - Elevate</title>
+    <meta property="og:title" content="Sign-Up - Elevate" />
+    <meta
+      property="og:image"
+      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/cde296c4-55cf-4fee-926b-6b536665d025/6572c222-2a77-4836-8a19-e6f2f0a5f8fd?org_if_sml=1&amp;force_format=original"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <script defer type="module" src="./register.js"></script>
+
+    <link rel="stylesheet" href="./style.css" />
+    <link href="./sign-up.css" rel="stylesheet" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+        fill: var(--dl-color-gray-black);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="public/logowhite2.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+       body::-webkit-scrollbar {
+         width: 0.5em;
+         z-index: 100;
+         background-color:transparent;
+       }
+
+
+      body::-webkit-scrollbar-thumb {
+         background-color:white;
+         box-shadow:0 -100vh 0 100vh #5128f5; /*magic*/
+       }
+    </style>
+  </head>
+  <body>
+    
+    <div>
+      
+
+      <div class="sign-up-container">
+        <div class="sign-up-container1">
+          <a href="index.html" class="sign-up-navlink">
+            <img
+              alt="image"
+              src="public/logowhite1-200h.png"
+              class="sign-up-image"
+            />
+          </a>
+        </div>
+        <div class="sign-up-container2">
+          <div class="sign-up-container3">
+            <div class="sign-up-title-root">
+              <h2 class="sign-up-text thq-heading-2">Create an account</h2>
+            </div>
+            <span class="sign-up-text01 thq-body-small">
+              Enter your email address and password to create an account
+            </span>
+            <form class="sign-up-form">
+              <div class="sign-up-email">
+                <label for="thq-sign-up-4-email" class="thq-body-large">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  required="true"
+                  placeholder="Full Name"
+                  class="sign-up-textinput thq-body-large thq-input"
+                />
+              </div>
+              <div class="sign-up-email">
+                <label for="thq-sign-up-4-email" class="thq-body-large">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  required="true"
+                  placeholder="Email address"
+                  class="sign-up-textinput thq-body-large thq-input"
+                />
+              </div>
+              <div class="sign-up-password">
+                <label for="thq-sign-up-4-email" class="thq-body-large">
+                  Password
+                </label>
+                <input
+                  type="password"
+                  id="password"
+                  required="true"
+                  placeholder="Password"
+                  class="sign-up-textinput1 thq-body-large thq-input"
+                />
+              </div>
+              <button type="submit" class="sign-up-button thq-button-filled" id="submit">
+              <span class="sign-up-text09 thq-body-small">Create Account</span>
+            </button>
+            </form>
+            <div class="sign-up-divider">
+              <div class="sign-up-divider1"></div>
+              <p class="thq-body-large">OR</p>
+              <div class="sign-up-divider2"></div>
+            </div>
+            <p class="sign-up-text05 thq-body-large">
+              Already have an account?
+            </p>
+            <a href="sign-in.html" class="sign-up-navlink1"></a>
+            <a href="sign-in.html">
+              <div
+                class="sign-in-button-container sign-in-button-root-class-name"
+              >
+                <p class="sign-in-button-text thq-body-large">Sign In</p>
+              </div>
+            </a>
+
+            <div class="sign-up-container4">
+              <div class="sign-up-terms-agree">
+                <input
+                  type="checkbox"
+                  id="thq-sign-up-4-terms"
+                  checked="true"
+                  class="thq-checkbox"
+                />
+                <label for="thq-sign-up-4-terms" class="thq-body-large">
+                  <span>
+                    Agree to our&nbsp;Terms of use and Privacy Policy.
+                  </span>
+                  <span></span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer-footer footer-root-class-name2">
+          <div class="footer-bottom">
+            <img
+              alt="image"
+              src="public/logowhite1-200h.png"
+              class="footer-image"
+            />
+            <span class="footer-text">
+              <span class="footer-text1">Copyright © Active - 2024</span>
+              <br />
+            </span>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
